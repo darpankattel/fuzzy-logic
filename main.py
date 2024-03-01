@@ -1,5 +1,4 @@
-from src.example import Example
+from src import english
 
-if __name__ == '__main__':
-    # exec(open("src/main_try.py").read())
-    Example().run()
+# if __name__ == '__main__':
+#     Example().run()

@@ -2,3 +2,5 @@ docs/
 practice/
 
 env/
+
+*/__pycache__

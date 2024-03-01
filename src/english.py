@@ -190,8 +190,9 @@ plt.legend()
 plt.grid(True)
 # plt.show()
 
-# bishnu = Student("Bishnu", np.array([16, 24, 28, 32])) # ramro
-bishnu = Student("Bishnu", np.array([1, 2, 2, 3]))  # naramro
+# bishnu = Student("Bishnu", np.array([16, 24, 28, 32]))  # ramro
+bishnu = Student("Bishnu", np.array([8, 12, 20, 10]))  # ramro
+# bishnu = Student("Bishnu", np.array([1, 2, 2, 3]))  # naramro
 
 fuzzy_var_listening = FuzzyVariable(
     universe=marks_listening, label="Listening")
@@ -309,8 +310,8 @@ def area_ol(mu, alpha, beta):
 
 def area_or(mu, alpha, beta):
     x_or = (beta - alpha) * mu + alpha
-    a_or = (1 / 2) * mu * ((240 - alpha) + (240 - x_or))
-    return a_or, (240 - alpha) / 2 + alpha
+    a_or = (1 / 2) * mu * ((100 - alpha) + (100 - x_or))
+    return a_or, (100 - alpha) / 2 + alpha
 
 
 def defuzzification(fd_op, basic_op, elem_op, inter_op, advanced_op):
