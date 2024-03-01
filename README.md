@@ -22,6 +22,10 @@ git clone https://github.com/darpankattel/fuzzy-logic.git
 ```bash
 cd fuzzy-logic
 ```
++ Create a virtual Environment and then activate:
+```bash
+./env/bin/activate
+```
 + Install the required dependencies:
 ```bash
 pip install -r requirements.txt
